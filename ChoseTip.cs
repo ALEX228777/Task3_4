@@ -1,3 +1,5 @@
+using System;
+
 namespace Task3_1
 {
     public abstract class ChoseTip<Tip>

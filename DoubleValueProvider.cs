@@ -1,8 +1,8 @@
-using Task3_1;
+using System;
 
-namespace ConsoleApp15
+namespace Task3_1
 {
-    public class Double :ChoseTip<double>
+    public class DoubleValueProvider :ChoseTip<double>
     {
         public override double RandomTip()
         {

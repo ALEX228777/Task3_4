@@ -1,5 +1,6 @@
-namespace Task3_1{
-    public class Int : ChoseTip<int>
+namespace Task3_1
+{
+    public class IntValueProvider : ChoseTip<int>
     {
         public override int RandomTip()
         {

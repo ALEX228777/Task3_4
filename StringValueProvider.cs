@@ -1,8 +1,8 @@
-using Task3_1;
+using System;
 
-namespace ConsTask3_1
+namespace Task3_1
 {
-    public class String : ChoseTip<string>
+    public class StringValueProvider : ChoseTip<string>
     {
         public override string RandomTip()
         {
@@ -22,5 +22,6 @@ namespace ConsTask3_1
         {
             return input;
         }
+
     }
 }
